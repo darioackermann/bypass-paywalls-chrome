@@ -378,6 +378,8 @@ if (matchDomain('elmercurio.com')) {
 } else if (matchDomain('nzz.ch')) {
   const paywall = document.querySelector('.dynamic-regwall');
   removeDOMElement(paywall);
+  // Remove nzzinteraction class which causes text to be grey
+  Array.from(document.querySelectorAll(".nzzinteraction.articlecomponent")).map(c => c.classList.remove("nzzinteraction"))
 } else if (matchDomain('irishtimes.com')) {
   document.addEventListener('DOMContentLoaded', () => {
     const stubArticleMsg = document.querySelector('div.stub-article-msg');
