@@ -1,5 +1,7 @@
+_This is a fork of iamadamdev/bypass-paywalls-chrome_
+
 <p align="center">
-  <img src="https://github.com/iamadamdev/bypass-paywalls-chrome/blob/master/src/icons/bypass.png" width="75" height="75"/>
+  <img src="https://github.com/darioackermann/bypass-paywalls-chrome/blob/master/src/icons/bypass.png" width="75" height="75"/>
 </p>
 
 <h1 align="center">Bypass Paywalls</h1>
@@ -8,14 +10,14 @@
 
 ### Installation Instructions
 **Google Chrome / Microsoft Edge** (Custom sites supported)
-1. Download this repo as a [ZIP file from GitHub](https://github.com/iamadamdev/bypass-paywalls-chrome/archive/master.zip).
+1. Download this repo as a [ZIP file from GitHub](https://github.com/darioackermann/bypass-paywalls-chrome/archive/master.zip).
 1. Unzip the file and you should have a folder named `bypass-paywalls-chrome-master`.
 1. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
 1. Enable Developer Mode.
 1. Drag the `bypass-paywalls-chrome-master` folder anywhere on the page to import it (do not delete the folder afterwards).
 
 **Mozilla Firefox** (Custom sites not supported)
-* [Download and install the latest version](https://github.com/iamadamdev/bypass-paywalls-chrome/releases/latest/download/bypass-paywalls-firefox.xpi)
+* enquire if you need
 
 **Notes**
 * Every time you open Chrome it may warn you about running extensions in developer mode, just click &#10005; to keep the extension enabled.
